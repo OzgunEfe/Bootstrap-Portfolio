@@ -1,0 +1,9 @@
+.jumbotron{
+    padding: 40px 0px;
+}
+
+.jumbotron-img {
+    background: #989898;
+    border: 1px solid #989898;
+    border-radius: 50%;
+}
