@@ -37,3 +37,11 @@
 .contact-section li{
     list-style-type: none;
 }
+
+.footer ul{
+    padding-left: 0px;
+}
+
+.footer a img:hover{
+    opacity: 0.6;
+}
