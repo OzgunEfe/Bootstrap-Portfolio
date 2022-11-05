@@ -1,11 +1,56 @@
+body{
+    margin-top: 56px;
+}
+
+.scroll-up{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    bottom: 35px;
+    right: 40px;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.btn:hover{
+    background-color: #4f4f4f!important;
+    border-color: #4f4f4f!important;
+    box-shadow: 5px 5px 18px #888888;
+}
+
+.btn-success, .btn-primary{
+    background-color: #54B689!important;
+    border-color: #54B689!important;
+}
+
+
+@media (max-width: 768px) {
+    .scroll-up{
+        display: none;
+    }
+
+}
+
+header .navbar{
+    background-color: #54B689!important;
+}
+
+header .navbar a:hover{
+    color: #4f4f4f!important;
+}
+
+header .navbar li a{
+    color: white;
+}
+
 .jumbotron{
     padding: 40px 0px;
-    margin-top: 96px;
+    background-color: #f0f0f0;
 }
 
 .jumbotron-img {
-    background: #989898;
-    border: 1px solid #989898;
+    background: rgba(207, 206, 206, 0.7);
+    border: 1px solid rgba(207, 206, 206, 0.7);
     border-radius: 50%;
 }
 
@@ -13,8 +58,33 @@
     margin-right: 30px;
 }
 
+@media (max-width: 992px) {
+    .jumbotron .about-me-text-section{
+        text-align: center;
+    }
+}
+
+.portfolio .card p{
+    color: rgb(83, 82, 82);
+}
+
+
+
 .card img{
     height: 250px;
+}
+
+.skills-list .skill-left{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.skills-list .skill-right{
+    padding-left: 0px;
+}
+
+.skills-list ul{
+    padding-left: 0px;
 }
 
 .skills-list li{
